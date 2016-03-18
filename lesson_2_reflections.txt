@@ -1,0 +1,15 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    An hidden git folder was created. Since I didn't commit any file in the directory,
+    If I run 'git status' I only see one commit called 'initial commit' which doesn't
+    track any file.
+    I need to do 'git init' because the hidden git folder will track the history of
+    all the files inside the directory.
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+    The working directory contains all the project files. They might be a lot, so you
+    don't want to commit all of it.
+    The staging area lets you choose only the files that for you, make sense together 
+    for the commit you are doing. 

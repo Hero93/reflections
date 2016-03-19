@@ -18,3 +18,10 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 	By adding a file one at a time, you have more control on the things to commit that
 	have a logical correlation.
+
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+
+    When you want to add a new feature but you need to keep the current version free
+    in case you would need to fix something for production.  
+

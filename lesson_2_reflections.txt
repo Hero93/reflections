@@ -25,3 +25,9 @@ How would branches help?
     When you want to add a new feature but you need to keep the current version free
     in case you would need to fix something for production.  
 
+How do the diagrams help you visualize the branch structure?
+
+    Draw a diagram helps you visualize the brach structure because it allows you to view the
+    commit history as a big picture. With this visualization you can, for example, easily 
+    spot commits that aren't accessible within the current branches and fix the problem.
+

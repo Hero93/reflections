@@ -37,5 +37,15 @@ the diagram the way we do?
     The result is a repository with code merged between the 2 branches. We represent a 
     diagram because we need to now the commits that were added with the new branch.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
+    Automatic merging:
+    PRO: you don't have to worry about anything releted to git errors.
+    CONS: Git doesn't know your code well, so it might e.g merge 2 function together
+          and get the file uncompiling.
+
+    Manual merging:
+    PRO: you have the control on the merging progress. You know your code better than GIT, so
+         it is easy for you to fix some merge problems.
+    CONS: I don't think there big cons.
 

@@ -31,3 +31,11 @@ How do the diagrams help you visualize the branch structure?
     commit history as a big picture. With this visualization you can, for example, easily 
     spot commits that aren't accessible within the current branches and fix the problem.
 
+What is the result of merging two branches together? Why do we represent it in 
+the diagram the way we do?
+
+    The result is a repository with code merged between the 2 branches. We represent a 
+    diagram because we need to now the commits that were added with the new branch.
+
+
+

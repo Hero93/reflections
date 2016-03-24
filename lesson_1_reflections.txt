@@ -8,13 +8,13 @@ How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
     Having a file history is very convinient for, I think, 2 things:
-    1) As the time pass and the files get longer a bug can be introducted. By
-       going back to a previous version you can have a fully work file and by 
-       comparing the 2 files, you can try to fix the most recent file.
-    2) When you have to work on a file that is not written by you, it is possible
+    1) As the time pass and the files get longer, a bug can be introducted. By
+       going back to a previous version you can have a fully working file and by 
+       comparing the 2 files, you can try to fix the most recent one.
+    2) When you have to work on a file that is not wrote by you, it is possible
        that you may have deleted a function that you thought, at that time, was 
-       unnecessary. By going back to an older version of the file you can restrore
-       the function and can keep working on the newer file.
+       unnecessary. By going back to an older version of the file you can restore
+       the function and keep working on the newer file.
 
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
@@ -24,33 +24,32 @@ docs does?
     Pros: If you can choose when to save your file, you have a file history created
           by you, so it is easier for you to look back at it.
     Cons: If you forget to commit when you wrote a lot of code, it would be more difficult 
-          to have a look at the file's history because maybe some unreleated code have been
-          put in the same commit.
+          to have a look at the file history because maybe some unreleated code may 
+          have been put in the same commit.
     AUTOMATICALLY SAVED:
     Pros: If you forget to save the updated file, the system does it for you.
     Cons: You don't have a file history organization choosed by you. So, by 
           having a look at the history you could find saved files that do not 
           have the complete code that you wrote e.g for a new feature or a bug fix.
-          You have to spend more time on the file's history looking for the file
+          You have to spend more time on the file history looking for the file
           with all the lines of code you wrote.
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
     Because when you write code for a software or a website some code that is written
-    in one file might be used by other files. So it is important that all the files
-    are tracked in order to enable the communication between all the files.
+    in one file might be used by other files.
 
 How can you use the commands git log and git diff to view the history of files?
 
     With the 'git log' I can retreive information about the commit id, name and date.
-    Once I found the file I want to compere to the newest or oldest version, I run a 
-    'git diff' betweens those commits.
+    Once I found the file I want to compare to the newest or oldest version, I run a 
+    'git diff new commit old commit'.
 
 How might using version control make you more confident to make changes that
 could break something?
 
-    Because I can always track the past version of the files and searching for the line/
+    Because I can always track the past version of the files and search for the line/
     lines of code that introduced an error (bug). By having an history file you are
     more confident of what you write because you are sure that you can always go back
     to a previous fully working version. By comparing the two commits (the older and 

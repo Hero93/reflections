@@ -1,9 +1,9 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-    An hidden git folder was created. Since I didn't commit any file in the directory,
-    If I run 'git status' I only see one commit called 'initial commit' which doesn't
-    track any file.
-    I need to do 'git init' because the hidden git folder will track the history of
+    An hidden git folder is created. Since the first time I don't have commited any file 
+    in the repository, if I run 'git status' I only see one commit called 
+    'initial commit' which doesn't track any file.
+    I need to do 'git init' because then the hidden git folder will track the history of
     all the files inside the directory.
 
 How is the staging area different from the working directory and the repository? 
@@ -22,7 +22,7 @@ How can you use the staging area to make sure you have one commit per logical ch
 What are some situations when branches would be helpful in keeping your history organized? 
 How would branches help?
 
-    When you want to add a new feature but you need to keep the current version free
+    When you want to add a new feature but you need to keep the current version fully working
     in case you would need to fix something for production.  
 
 How do the diagrams help you visualize the branch structure?
@@ -35,7 +35,7 @@ What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
     The result is a repository with code merged between the 2 branches. We represent a 
-    diagram because we need to now the commits that were added with the new branch.
+    diagram because we need to know the commits that were added with the new branch.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
